@@ -10,7 +10,7 @@ function updateWeatherDashboard(city_name) {
 
   city_weather_details.replaceChildren();
   updateLocalStorage(city_name);
-  var fetchLatLongUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + city_name + '&APPID=10471b7d9ad846493625be9742901755';
+  var fetchLatLongUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city_name + '&APPID=10471b7d9ad846493625be9742901755';
 
   fetch(fetchLatLongUrl)
     .then(function (response) {
@@ -73,7 +73,7 @@ function updateWeather(lat, long, city_name) {
       var date = new Date(data.current.dt * 1000);
       var img = document.createElement('img');
 
-      var imgSrc = "http://openweathermap.org/img/wn/" + data.current.weather[0].icon + ".png";
+      var imgSrc = "https://openweathermap.org/img/wn/" + data.current.weather[0].icon + ".png";
       img.src = imgSrc;
 
       cityName.textContent = city_name + " (" + date.toLocaleDateString("default") + ")";
@@ -131,7 +131,7 @@ function updateWeather(lat, long, city_name) {
       datetxt.textContent = date.toLocaleDateString("default");
 
       var img = document.createElement('img');
-      var imgSrc = "http://openweathermap.org/img/wn/" + data.daily[i].weather[0].icon + ".png";
+      var imgSrc = "https://openweathermap.org/img/wn/" + data.daily[i].weather[0].icon + ".png";
       img.src = imgSrc;
 
 
