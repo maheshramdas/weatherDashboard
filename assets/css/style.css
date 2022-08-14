@@ -1,0 +1,136 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dashboard {
+  font-size: 30px;
+  background-image: linear-gradient(to bottom right, rgb(114, 150, 250), rgb(26, 3, 79));
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  border: 0;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0;
+}
+
+#search_container {
+  width: 20%;
+  float: left;
+}
+
+label {
+  font-size: 25px;
+  color: black;
+  margin: 0;
+  padding: 35px 12px 35px 12px;
+  border: 5px 0 5px 0;
+  font-weight: bold;
+
+}
+
+input {
+  width: 100%;
+  height: 45px;
+  margin: 5px 0 5px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  color: rgb(176, 172, 172);
+}
+
+h2 {
+  padding: 5px;
+}
+
+button {
+  padding: 12px 10px 12px 10px;
+  margin: 5px 0 5px 0;
+  cursor: pointer;
+  background-color: #6da1f4;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  border: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#searched_city {
+  background-color: rgb(176, 172, 172);
+  color: black;
+}
+
+hr {
+  color: "#c7c34c";
+  background-color: black;
+  size: "12";
+}
+
+#city_weather_details {
+  width: 75%;
+  float: left;
+
+}
+
+#curent_day_forecast {
+  border-style: solid;
+  margin: 0px 5px 0px 30px;
+  padding: 5px;
+  width: 100%;
+  border-color: black;
+}
+
+#five_day_forecast {
+  margin: 0px 0px 0px 30px;
+  padding: 5px;
+  padding-right: 0px;
+  width: 100%;
+  border: 0px;
+}
+
+
+#future_forecast {
+  margin: 0 2.3px 0 2.3px;
+  padding: 5px 0 0 0;
+  width: 19.51%;
+  color: white;
+  background-color: rgb(68, 68, 104);
+  float: left;
+}
+
+img{
+  padding: 0px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+  
+}
+
+p {
+  font-size: 15px;
+  padding: 0px 5px 0px 5px;
+  font-weight: 10px;
+}
+
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: #ff6961;
+
+}
+
+.green {
+  background-color: #77dd77;
+}
