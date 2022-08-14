@@ -7,3 +7,4 @@
  3) the five day forecast has the similar data for the next cosecutive five days
  4) The searched cities are stored in local storage and are displayed for the user's reference
  
+  ## Screenshots
