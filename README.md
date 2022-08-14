@@ -8,3 +8,9 @@
  4) The searched cities are stored in local storage and are displayed for the user's reference
  
   ## Screenshots
+  <img width="803" alt="initialweatherdashboard" src="https://user-images.githubusercontent.com/109004012/184544410-2c0fe45b-517d-4dbb-89ca-6b6efba8e010.png">
+<img width="914" alt="weather_dashboard" src="https://user-images.githubusercontent.com/109004012/184544411-78ffae1c-5fd7-44f1-8a87-a9ef490068a8.png">
+
+## URLs
+1. Github repositry link: https://github.com/maheshramdas/weatherDashboard
+2. Deployed application link: https://maheshramdas.github.io/weatherDashboard/
